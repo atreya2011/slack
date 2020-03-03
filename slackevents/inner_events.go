@@ -275,6 +275,10 @@ const (
 	PinAdded = "pin_added"
 	// PinRemoved An item was unpinned from a channel
 	PinRemoved = "pin_removed"
+	// ReactionAdded An reaction was added to a message
+	ReactionAdded = "reaction_added"
+	// ReactionRemoved An reaction was removed from a message
+	ReactionRemoved = "reaction_removed"
 	// TokensRevoked APP's API tokes are revoked
 	TokensRevoked = "tokens_revoked"
 )
@@ -293,5 +297,7 @@ var EventsAPIInnerEventMapping = map[string]interface{}{
 	MemberJoinedChannel:   MemberJoinedChannelEvent{},
 	PinAdded:              PinAddedEvent{},
 	PinRemoved:            PinRemovedEvent{},
+	ReactionAdded:         ReactionAddedEvent{},
+	ReactionRemoved:       ReactionRemovedEvent{},
 	TokensRevoked:         TokensRevokedEvent{},
 }
