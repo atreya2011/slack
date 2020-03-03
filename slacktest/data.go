@@ -3,7 +3,7 @@ package slacktest
 import (
 	"fmt"
 
-	slack "github.com/slack-go/slack"
+	slack "github.com/atreya2011/slack"
 )
 
 const defaultBotName = "TestSlackBot"

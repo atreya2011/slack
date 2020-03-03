@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/slack-go/slack/slackutilsx"
+	"github.com/atreya2011/slack/slackutilsx"
 )
 
 const (

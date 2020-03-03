@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/atreya2011/slack/internal/errorsx"
+	"github.com/atreya2011/slack/internal/timex"
 	"github.com/gorilla/websocket"
-	"github.com/slack-go/slack/internal/errorsx"
-	"github.com/slack-go/slack/internal/timex"
 )
 
 // ManageConnection can be called on a Slack RTM instance returned by the
